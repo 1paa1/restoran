@@ -1,0 +1,700 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+    <title>Ресторан</title>
+    <meta name="description" content="Описание страницы" />
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    
+   <div class="container">
+    
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="index.html"> <img src="img/logo.png" style="border: 0;"> </a >
+          <a class="navbar-brand fs-1" href="#">Aluna Taste</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4 ">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">МЕНЮ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_us.html">О НАС</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">КОНТАКТЫ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table-reservation.php">БРОНИРОВАТЬ СТОЛИК</a>
+              </li>
+            
+            
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+   
+
+    
+      
+
+
+
+   
+   
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-white bg-menu">
+      <div class="container">
+        
+      
+        
+        
+          <div class="col-md-12 p-lg-5 mx-auto my-5 text-center">
+
+            <h1 class="display-4 fw-normal "><br> Меню
+
+              </h1>
+            <p class="lead fw-normal fs-3">Всё для любимых гостей
+             
+            </p>
+            
+          </div>
+          <div class="product-device shadow-sm d-none d-md-block"></div>
+          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+       
+        </div>
+           
+          </div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-6">
+    <h3>Шеф-повар Мишель Пэрис-младший и шеф-повар Стив Гроувс создали меню блюд, используя
+         лучшие сезонные продукты. Сервировка столов с едой и напитками. Черпая вдохновение<br> со всего мира, все блюда в нашем меню</h3>
+    </div>
+
+    <div class="col-6">
+    <h3>Предназначен для обмена. Используя невероятные британские продукты, каждый день
+     на месте забивают и готовят целых животных и рыбу, а ингредиенты настолько хороши, что говорят сами за себя..</h3>
+    </div>
+    </div>
+    </div>
+
+
+<section id="menu" class="menu">
+    <div class="container">
+
+      <div class="section-title text-center mb-5">
+        <h2>Проверьте наши вкусные</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="menu-flters">
+            <li data-filter="*" class="filter-active">Все меню</li>
+            <li data-filter=".filter-lunch">Обеденное меню</li>
+            <li data-filter=".filter-dinner">Меню на ужин</li>
+            <li data-filter=".filter-dessert">Десертное меню</li>
+            <li data-filter=".filter-drink">Меню напитков</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row menu-container">
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">АНГЛИЙСКИЙ-СПАРЖА</a><span>$5.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Спаржа, куриное яйцо, жареные семечки, сыр Спенвуд
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">КОРНУЭЛЬСКАЯ СКУМБРИЯ</a><span>$6.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Скумбрия корниш, маринованные помидоры, ароматный карри
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">КАРРИ-ТАМАРИЛЛОР</a><span>$7.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Скумбрия корниш, маринованные помидоры, ароматный карри
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">КАМПО ЛИНДО ЦЫПЛЕНОК</a><span>$8.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Фава фава, артшоки, фарро и черный желудок
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">ЖАРЕНЫЙ СТЕЙК-РУЛЕТ</a><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Мятный рарссель с яблочным уксусом, солью, сахаром и специями
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$4.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Запеченное филе лосося, голландский соус, картофель с розмарином
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">ПУЛЕТ КОРДОН БЛЮ</a><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Паупьет из курицы, голубого сыра, ветчины, розмарина и фасоли
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Запеченное филе лосося, голландский соус, картофель с розмарином
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-lunch">
+          <div class="menu-content">
+            <a href="#">КОНФИ ДЕ КАНАР</a><span>$12.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Конфи из утки, запеканка из белой фасоли и ветчины, увядший шпинат
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">АНГЛИЙСКИЙ-СПАРЖА</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Спаржа, куриное яйцо, жареные семечки, сыр Спенвуд
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">КОРНУЭЛЬСКАЯ СКУМБРИЯ</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Скумбрия корниш, маринованные помидоры, ароматный карри
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">КАРРИ-ТАМАРИЛЛОР</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Скумбрия корниш, маринованные помидоры, ароматный карри
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">КАМПО ЛИНДО ЦЫПЛЕНОК</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Фава фава, артшоки, фарро и черный желудок
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">ЖАРЕНЫЙ СТЕЙК-РУЛЕТ</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Мятный рарссель с яблочным уксусом, солью, сахаром и специями
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Запеченное филе лосося, голландский соус, картофель с розмарином
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">ПУЛЕТ КОРДОН БЛЮ</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Паупьет из курицы, голубого сыра, ветчины, розмарина и фасоли
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Запеченное филе лосося, голландский соус, картофель с розмарином
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dinner">
+            <div class="menu-content">
+              <a href="#">КОНФИ ДЕ КАНАР</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Конфи из утки, запеканка из белой фасоли и ветчины, увядший шпинат
+            </div>
+          </div>
+
+
+
+
+
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">АНГЛИЙСКИЙ-СПАРЖА</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Спаржа, куриное яйцо, жареные семечки, сыр Спенвуд
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">КОРНУЭЛЬСКАЯ СКУМБРИЯ</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Скумбрия корниш, маринованные помидоры, ароматный карри
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">КАРРИ-ТАМАРИЛЛОР</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Скумбрия корниш, маринованные помидоры, ароматный карри
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">КАМПО ЛИНДО ЦЫПЛЕНОК</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Фава фава, артшоки, фарро и черный желудок
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">ЖАРЕНЫЙ СТЕЙК-РУЛЕТ</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Мятный рарссель с яблочным уксусом, солью, сахаром и специями
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Запеченное филе лосося, голландский соус, картофель с розмарином
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">ПУЛЕТ КОРДОН БЛЮ</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Паупьет из курицы, голубого сыра, ветчины, розмарина и фасоли
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Запеченное филе лосося, голландский соус, картофель с розмарином
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-dessert">
+            <div class="menu-content">
+              <a href="#">КОНФИ ДЕ КАНАР</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Конфи из утки, запеканка из белой фасоли и ветчины, увядший шпинат
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">АНГЛИЙСКИЙ-СПАРЖА</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Спаржа, куриное яйцо, жареные семечки, сыр Спенвуд
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">КОРНУЭЛЬСКАЯ СКУМБРИЯ</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Скумбрия корниш, маринованные помидоры, ароматный карри
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">КАРРИ-ТАМАРИЛЛОР</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Скумбрия корниш, маринованные помидоры, ароматный карри
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">КАМПО ЛИНДО ЦЫПЛЕНОК</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Фава фава, артшоки, фарро и черный желудок
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">ЖАРЕНЫЙ СТЕЙК-РУЛЕТ</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Мятный рарссель с яблочным уксусом, солью, сахаром и специями
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Запеченное филе лосося, голландский соус, картофель с розмарином
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">ПУЛЕТ КОРДОН БЛЮ</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Паупьет из курицы, голубого сыра, ветчины, розмарина и фасоли
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">ФИЛЕ ДЕ СОМОН</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Запеченное филе лосося, голландский соус, картофель с розмарином
+            </div>
+          </div>
+  
+          <div class="col-lg-6 menu-item filter-drink">
+            <div class="menu-content">
+              <a href="#">КОНФИ ДЕ КАНАР</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Конфи из утки, запеканка из белой фасоли и ветчины, увядший шпинат
+            </div>
+          </div>
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+        <div class="container">
+  
+          <div class="section-title text-center mb-5">
+            <h2><br><br><br>Ознакомьтесь с нашими <br>специальными предложениями</h2><br><br>
+            <p>По возможности, если у вас есть время, чтобы подготовиться к вечерним процедурам, то это время, когда у вас есть время для приема пищи.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">фИЛЕ ДЕ СОМОН</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">ЖАРЕННЫЙ СТЕЙК</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">КОНФИ ДЕ КОНАР</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4">КАРРИ-ТАМАРИЛЛОР</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5">ПУЛЕТ БЛЮ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Филе де сомон</h3>
+                      <p class="fst-italic">приготовленное из филе семги</p>
+                      <p>Обычно оно запекается, гриль или жарится на сковороде с различными приправами. Филе де сомон обладает нежным вкусом и сочной текстурой, является популярным выбором для любителей морепродуктов.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/specials-1.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Жаренный стейк</h3>
+                      <p class="fst-italic">приготовленное из куска мяса</p>
+                      <p>Жаренный стейк часто подается с соусом или гарниром, такими как жареная картошка или овощи. Это популярное блюдо, которое ценится за сочный вкус мяса и ароматный запах жареного.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/specials-2.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Конфи де канар</h3>
+                      <p class="fst-italic"> утиная нога</p>
+                      <p>медленно тушится в своем же жире при низкой температуре. Этот процесс придает мясу невероятную нежность и богатый вкус. Конфи де канар славится своими сочными и ароматными результатами, которые часто подаются с картофельным пюре или овощами.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/specials-3.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>карри с тамарилло</h3>
+                      <p class="fst-italic">Невероятное наслождение</p>
+                      <p>в котором сочетаются ароматное карри и уникальный вкус тамарилло, фрукта, который добавляет кислоты и сладости. Этот вид карри может быть приготовлен с различными видами мяса, овощей или морепродуктов и обычно подается с рисом или лепешкой на бокале.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/specials-4.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Пуллет кордон блю</h3>
+                      <p class="fst-italic">тбивной куриной грудкитбивной куриной грудки</p>
+                      <p>обычно подается с различными соусами или гарниром, таким как овощи или картофель. Пуллет кордон блю представляет собой привлекательное сочетание сочной куриной грудки с сыром и ветчиной, образуя замечательный вкус.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/specials-5.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Specials Section -->
+  </section><!-- End Menu Section -->
+
+
+  <div class="container">
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Общайтесь с нами в социальных сетях:</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Aluna Taste
+              </h6>
+              <p>
+                Ресторан рад всем гостям.У вас есть возможность посетить нас как кафе для дня рождения, крестин. Наша летняя терраса расположена на втором этаже рядом с банкетным залом и добавит атмосферы в тёплые сезоны. Звоните, узнавайте свободные даты!
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+             
+              <p>
+                <a href="#!" class="text-reset">Рестораны</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Проекты</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Мероприятия</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Новости</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+             
+              <p>
+                <a href="#!" class="text-reset">О нас</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Контакты</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Забронировать стол</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Aluna Pay</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              
+              <p><i class="fas fa-home me-3"></i> +7 (812) 640-16-16</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                mogistermel@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i>Ижевск, Красноармейская., д. 3, стр.1</p>
+              
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Aluna Taste</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    </body>
+            </div>
+
+  
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+        </body>
+
+        </html>
